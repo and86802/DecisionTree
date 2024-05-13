@@ -1,0 +1,7 @@
+Counter({'1': 14, '0': 14})root=root --> chest_pain
+|Counter({'1': 12, '0': 4})chest_pain=0 --> thalassemia
+||Counter({'1': 4, '0': 3})thalassemia=0 --> 1
+||Counter({'1': 8, '0': 1})thalassemia=1 --> 1
+|Counter({'0': 10, '1': 2})chest_pain=1 --> thalassemia
+||Counter({'0': 7})thalassemia=0 --> 0
+||Counter({'0': 3, '1': 2})thalassemia=1 --> 0
