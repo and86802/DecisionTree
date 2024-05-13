@@ -3,6 +3,17 @@
 ## Introduction
 Basic implementation of the ID3 (mutual information or information gain) decision tree algorithm from scratch.  
 
+This example demonstrate a simple classification task. The dataset is based on binary classed, however the code implemented can be used in multi-classes classification. 
+
+## Dataset
+- This depository contains three datasets containing train and test data with attributes and labels.
+
+- **Heart**: To predict whether a paitent will be diagnosed with heart disease based on patient information including sex, chest pain, high blod sugar, ecg, ST segment, fluoroscopy, thalassemia.
+
+- **Education**: To predict the final grade for high school students using the attributes such as scores of multiple choice assignments (M1-M5), programming assignments (P1-P4), and final exam (F).
+
+- **Small**; To provide a small data set of heart disease prediction. It only contains two attributes, chest pain and thalassemia.
+
 ## Example
 - The following command runs the program on the small dataset and learn a tree with a max_depth of 2. The train and test predictions would be written to small_2_train.txt and small_2_test.txt.
 ``` python
